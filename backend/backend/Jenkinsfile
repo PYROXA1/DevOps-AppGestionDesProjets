@@ -19,7 +19,7 @@ pipeline {
         {
             steps 
             {
-                sh "mvn clean compile"
+                dir("backend"){  sh "mvn clean compile"}
               
             }
                 
